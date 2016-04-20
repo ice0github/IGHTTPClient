@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B7A5BA2D6989EAE4884D2 /* libPods-IGHTTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B14914721F674B7F38B27 /* libPods-IGHTTPClient.a */; };
+		865D8CE91CC5E47B009C17B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D8CE81CC5E47B009C17B7 /* main.m */; };
+		865D8CEC1CC5E47B009C17B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D8CEB1CC5E47B009C17B7 /* AppDelegate.m */; };
+		865D8CEF1CC5E47B009C17B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D8CEE1CC5E47B009C17B7 /* ViewController.m */; };
+		865D8CF21CC5E47B009C17B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D8CF01CC5E47B009C17B7 /* Main.storyboard */; };
+		865D8CF41CC5E47B009C17B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865D8CF31CC5E47B009C17B7 /* Assets.xcassets */; };
+		865D8CF71CC5E47B009C17B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D8CF51CC5E47B009C17B7 /* LaunchScreen.storyboard */; };
+		8670CD6E1CC6226400AA1DC7 /* IGCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670CD6C1CC6226400AA1DC7 /* IGCellData.m */; };
+		8670CD711CC6229200AA1DC7 /* IGTestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670CD701CC6229200AA1DC7 /* IGTestParser.m */; };
+		86ECFAE81CC75FED0045785A /* IGBatchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAC91CC75FED0045785A /* IGBatchTask.m */; };
+		86ECFAE91CC75FED0045785A /* IGBatchTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFACB1CC75FED0045785A /* IGBatchTaskManager.m */; };
+		86ECFAEA1CC75FED0045785A /* IGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFACD1CC75FED0045785A /* IGHTTPClient.m */; };
+		86ECFAEB1CC75FED0045785A /* IGHTTPRequestBuilderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAD61CC75FED0045785A /* IGHTTPRequestBuilderManager.m */; };
+		86ECFAEC1CC75FED0045785A /* IGHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAD81CC75FED0045785A /* IGHTTPRequestSerializer.m */; };
+		86ECFAED1CC75FED0045785A /* IGJSONResponseObjectParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFADC1CC75FED0045785A /* IGJSONResponseObjectParserManager.m */; };
+		86ECFAEE1CC75FED0045785A /* IGJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFADE1CC75FED0045785A /* IGJSONResponseSerializer.m */; };
+		86ECFAEF1CC75FED0045785A /* IGHTTPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAE11CC75FED0045785A /* IGHTTPTools.m */; };
+		86ECFAF01CC75FED0045785A /* IGJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAE31CC75FED0045785A /* IGJSONModel.m */; };
+		86ECFAF11CC75FED0045785A /* NSError+HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAE51CC75FED0045785A /* NSError+HTTPClient.m */; };
+		86ECFAF21CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAE71CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.m */; };
+		86ECFAF71CC760370045785A /* IGFileUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAF61CC760370045785A /* IGFileUploadManager.m */; };
+		86ECFAFA1CC7605B0045785A /* IGHTTPClient+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECFAF91CC7605B0045785A /* IGHTTPClient+Download.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22E64ACA52B814F16FDAB8DD /* Pods-IGHTTPClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGHTTPClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGHTTPClient/Pods-IGHTTPClient.debug.xcconfig"; sourceTree = "<group>"; };
+		865D8CE41CC5E47B009C17B7 /* IGHTTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGHTTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865D8CE81CC5E47B009C17B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		865D8CEA1CC5E47B009C17B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		865D8CEB1CC5E47B009C17B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		865D8CED1CC5E47B009C17B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		865D8CEE1CC5E47B009C17B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		865D8CF11CC5E47B009C17B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		865D8CF31CC5E47B009C17B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865D8CF61CC5E47B009C17B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865D8CF81CC5E47B009C17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8670CD5B1CC6096C00AA1DC7 /* IGHTTPClient.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGHTTPClient.pch; sourceTree = "<group>"; };
+		8670CD6B1CC6226400AA1DC7 /* IGCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCellData.h; sourceTree = "<group>"; };
+		8670CD6C1CC6226400AA1DC7 /* IGCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCellData.m; sourceTree = "<group>"; };
+		8670CD6D1CC6226400AA1DC7 /* IGToolMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGToolMacro.h; sourceTree = "<group>"; };
+		8670CD6F1CC6229200AA1DC7 /* IGTestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTestParser.h; sourceTree = "<group>"; };
+		8670CD701CC6229200AA1DC7 /* IGTestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTestParser.m; sourceTree = "<group>"; };
+		86ECFAC81CC75FED0045785A /* IGBatchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGBatchTask.h; sourceTree = "<group>"; };
+		86ECFAC91CC75FED0045785A /* IGBatchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGBatchTask.m; sourceTree = "<group>"; };
+		86ECFACA1CC75FED0045785A /* IGBatchTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGBatchTaskManager.h; sourceTree = "<group>"; };
+		86ECFACB1CC75FED0045785A /* IGBatchTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGBatchTaskManager.m; sourceTree = "<group>"; };
+		86ECFACC1CC75FED0045785A /* IGHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPClient.h; sourceTree = "<group>"; };
+		86ECFACD1CC75FED0045785A /* IGHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHTTPClient.m; sourceTree = "<group>"; };
+		86ECFACF1CC75FED0045785A /* IGHTTPClientProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPClientProfile.h; sourceTree = "<group>"; };
+		86ECFAD01CC75FED0045785A /* IGHTTPJSONResponseParserList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPJSONResponseParserList.h; sourceTree = "<group>"; };
+		86ECFAD11CC75FED0045785A /* IGHTTPRequestBuilderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPRequestBuilderList.h; sourceTree = "<group>"; };
+		86ECFAD21CC75FED0045785A /* IGURLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGURLList.h; sourceTree = "<group>"; };
+		86ECFAD41CC75FED0045785A /* IGHTTPRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPRequestBuilder.h; sourceTree = "<group>"; };
+		86ECFAD51CC75FED0045785A /* IGHTTPRequestBuilderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPRequestBuilderManager.h; sourceTree = "<group>"; };
+		86ECFAD61CC75FED0045785A /* IGHTTPRequestBuilderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHTTPRequestBuilderManager.m; sourceTree = "<group>"; };
+		86ECFAD71CC75FED0045785A /* IGHTTPRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPRequestSerializer.h; sourceTree = "<group>"; };
+		86ECFAD81CC75FED0045785A /* IGHTTPRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHTTPRequestSerializer.m; sourceTree = "<group>"; };
+		86ECFADA1CC75FED0045785A /* IGJSONResponseObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJSONResponseObjectParser.h; sourceTree = "<group>"; };
+		86ECFADB1CC75FED0045785A /* IGJSONResponseObjectParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJSONResponseObjectParserManager.h; sourceTree = "<group>"; };
+		86ECFADC1CC75FED0045785A /* IGJSONResponseObjectParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJSONResponseObjectParserManager.m; sourceTree = "<group>"; };
+		86ECFADD1CC75FED0045785A /* IGJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJSONResponseSerializer.h; sourceTree = "<group>"; };
+		86ECFADE1CC75FED0045785A /* IGJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJSONResponseSerializer.m; sourceTree = "<group>"; };
+		86ECFAE01CC75FED0045785A /* IGHTTPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHTTPTools.h; sourceTree = "<group>"; };
+		86ECFAE11CC75FED0045785A /* IGHTTPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHTTPTools.m; sourceTree = "<group>"; };
+		86ECFAE21CC75FED0045785A /* IGJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJSONModel.h; sourceTree = "<group>"; };
+		86ECFAE31CC75FED0045785A /* IGJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJSONModel.m; sourceTree = "<group>"; };
+		86ECFAE41CC75FED0045785A /* NSError+HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HTTPClient.h"; sourceTree = "<group>"; };
+		86ECFAE51CC75FED0045785A /* NSError+HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HTTPClient.m"; sourceTree = "<group>"; };
+		86ECFAE61CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+IGHTTPClient.h"; sourceTree = "<group>"; };
+		86ECFAE71CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+IGHTTPClient.m"; sourceTree = "<group>"; };
+		86ECFAF51CC760370045785A /* IGFileUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFileUploadManager.h; sourceTree = "<group>"; };
+		86ECFAF61CC760370045785A /* IGFileUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFileUploadManager.m; sourceTree = "<group>"; };
+		86ECFAF81CC7605B0045785A /* IGHTTPClient+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IGHTTPClient+Download.h"; sourceTree = "<group>"; };
+		86ECFAF91CC7605B0045785A /* IGHTTPClient+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IGHTTPClient+Download.m"; sourceTree = "<group>"; };
+		C69B14914721F674B7F38B27 /* libPods-IGHTTPClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGHTTPClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9198507E3D0750E6B5EE5F5 /* Pods-IGHTTPClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGHTTPClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGHTTPClient/Pods-IGHTTPClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865D8CE11CC5E47B009C17B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B7A5BA2D6989EAE4884D2 /* libPods-IGHTTPClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6729FB50E306A833092E31DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69B14914721F674B7F38B27 /* libPods-IGHTTPClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		865D8CDB1CC5E47B009C17B7 = {
+			isa = PBXGroup;
+			children = (
+				865D8CE61CC5E47B009C17B7 /* IGHTTPClient */,
+				865D8CE51CC5E47B009C17B7 /* Products */,
+				AFB36BBC9A101C0B52C9CE51 /* Pods */,
+				6729FB50E306A833092E31DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		865D8CE51CC5E47B009C17B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865D8CE41CC5E47B009C17B7 /* IGHTTPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865D8CE61CC5E47B009C17B7 /* IGHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				8670CD691CC6226400AA1DC7 /* Tools */,
+				8670CD681CC6226400AA1DC7 /* ForTest */,
+				86ECFAC61CC75FED0045785A /* IGNetwork */,
+				865D8CEA1CC5E47B009C17B7 /* AppDelegate.h */,
+				865D8CEB1CC5E47B009C17B7 /* AppDelegate.m */,
+				865D8CED1CC5E47B009C17B7 /* ViewController.h */,
+				865D8CEE1CC5E47B009C17B7 /* ViewController.m */,
+				865D8CF01CC5E47B009C17B7 /* Main.storyboard */,
+				865D8CF31CC5E47B009C17B7 /* Assets.xcassets */,
+				865D8CF51CC5E47B009C17B7 /* LaunchScreen.storyboard */,
+				865D8CF81CC5E47B009C17B7 /* Info.plist */,
+				865D8CE71CC5E47B009C17B7 /* Supporting Files */,
+			);
+			path = IGHTTPClient;
+			sourceTree = "<group>";
+		};
+		865D8CE71CC5E47B009C17B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				865D8CE81CC5E47B009C17B7 /* main.m */,
+				8670CD5B1CC6096C00AA1DC7 /* IGHTTPClient.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8670CD681CC6226400AA1DC7 /* ForTest */ = {
+			isa = PBXGroup;
+			children = (
+				8670CD6F1CC6229200AA1DC7 /* IGTestParser.h */,
+				8670CD701CC6229200AA1DC7 /* IGTestParser.m */,
+			);
+			path = ForTest;
+			sourceTree = "<group>";
+		};
+		8670CD691CC6226400AA1DC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8670CD6A1CC6226400AA1DC7 /* IGCellData */,
+				8670CD6D1CC6226400AA1DC7 /* IGToolMacro.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8670CD6A1CC6226400AA1DC7 /* IGCellData */ = {
+			isa = PBXGroup;
+			children = (
+				8670CD6B1CC6226400AA1DC7 /* IGCellData.h */,
+				8670CD6C1CC6226400AA1DC7 /* IGCellData.m */,
+			);
+			path = IGCellData;
+			sourceTree = "<group>";
+		};
+		86ECFAC61CC75FED0045785A /* IGNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFACC1CC75FED0045785A /* IGHTTPClient.h */,
+				86ECFACD1CC75FED0045785A /* IGHTTPClient.m */,
+				86ECFAF31CC760280045785A /* Download */,
+				86ECFAF41CC760280045785A /* Upload */,
+				86ECFAC71CC75FED0045785A /* Batch */,
+				86ECFACE1CC75FED0045785A /* Profiles */,
+				86ECFAD31CC75FED0045785A /* Request */,
+				86ECFAD91CC75FED0045785A /* Response */,
+				86ECFADF1CC75FED0045785A /* Tools */,
+			);
+			path = IGNetwork;
+			sourceTree = "<group>";
+		};
+		86ECFAC71CC75FED0045785A /* Batch */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFAC81CC75FED0045785A /* IGBatchTask.h */,
+				86ECFAC91CC75FED0045785A /* IGBatchTask.m */,
+				86ECFACA1CC75FED0045785A /* IGBatchTaskManager.h */,
+				86ECFACB1CC75FED0045785A /* IGBatchTaskManager.m */,
+			);
+			path = Batch;
+			sourceTree = "<group>";
+		};
+		86ECFACE1CC75FED0045785A /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFACF1CC75FED0045785A /* IGHTTPClientProfile.h */,
+				86ECFAD01CC75FED0045785A /* IGHTTPJSONResponseParserList.h */,
+				86ECFAD11CC75FED0045785A /* IGHTTPRequestBuilderList.h */,
+				86ECFAD21CC75FED0045785A /* IGURLList.h */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		86ECFAD31CC75FED0045785A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFAD41CC75FED0045785A /* IGHTTPRequestBuilder.h */,
+				86ECFAD51CC75FED0045785A /* IGHTTPRequestBuilderManager.h */,
+				86ECFAD61CC75FED0045785A /* IGHTTPRequestBuilderManager.m */,
+				86ECFAD71CC75FED0045785A /* IGHTTPRequestSerializer.h */,
+				86ECFAD81CC75FED0045785A /* IGHTTPRequestSerializer.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		86ECFAD91CC75FED0045785A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFADA1CC75FED0045785A /* IGJSONResponseObjectParser.h */,
+				86ECFADB1CC75FED0045785A /* IGJSONResponseObjectParserManager.h */,
+				86ECFADC1CC75FED0045785A /* IGJSONResponseObjectParserManager.m */,
+				86ECFADD1CC75FED0045785A /* IGJSONResponseSerializer.h */,
+				86ECFADE1CC75FED0045785A /* IGJSONResponseSerializer.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		86ECFADF1CC75FED0045785A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFAE01CC75FED0045785A /* IGHTTPTools.h */,
+				86ECFAE11CC75FED0045785A /* IGHTTPTools.m */,
+				86ECFAE21CC75FED0045785A /* IGJSONModel.h */,
+				86ECFAE31CC75FED0045785A /* IGJSONModel.m */,
+				86ECFAE41CC75FED0045785A /* NSError+HTTPClient.h */,
+				86ECFAE51CC75FED0045785A /* NSError+HTTPClient.m */,
+				86ECFAE61CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.h */,
+				86ECFAE71CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		86ECFAF31CC760280045785A /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFAF81CC7605B0045785A /* IGHTTPClient+Download.h */,
+				86ECFAF91CC7605B0045785A /* IGHTTPClient+Download.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		86ECFAF41CC760280045785A /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				86ECFAF51CC760370045785A /* IGFileUploadManager.h */,
+				86ECFAF61CC760370045785A /* IGFileUploadManager.m */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		AFB36BBC9A101C0B52C9CE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E64ACA52B814F16FDAB8DD /* Pods-IGHTTPClient.debug.xcconfig */,
+				C9198507E3D0750E6B5EE5F5 /* Pods-IGHTTPClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865D8CE31CC5E47B009C17B7 /* IGHTTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865D8CFB1CC5E47B009C17B7 /* Build configuration list for PBXNativeTarget "IGHTTPClient" */;
+			buildPhases = (
+				1B567F9ABAA47E3C845DDFBF /* 📦 Check Pods Manifest.lock */,
+				865D8CE01CC5E47B009C17B7 /* Sources */,
+				865D8CE11CC5E47B009C17B7 /* Frameworks */,
+				865D8CE21CC5E47B009C17B7 /* Resources */,
+				66E3967458BD34C3DAF1C726 /* 📦 Embed Pods Frameworks */,
+				210CE17600C746068A71DD53 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGHTTPClient;
+			productName = IGHTTPClient;
+			productReference = 865D8CE41CC5E47B009C17B7 /* IGHTTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865D8CDC1CC5E47B009C17B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GavinHe;
+				TargetAttributes = {
+					865D8CE31CC5E47B009C17B7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 865D8CDF1CC5E47B009C17B7 /* Build configuration list for PBXProject "IGHTTPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865D8CDB1CC5E47B009C17B7;
+			productRefGroup = 865D8CE51CC5E47B009C17B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865D8CE31CC5E47B009C17B7 /* IGHTTPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865D8CE21CC5E47B009C17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865D8CF71CC5E47B009C17B7 /* LaunchScreen.storyboard in Resources */,
+				865D8CF41CC5E47B009C17B7 /* Assets.xcassets in Resources */,
+				865D8CF21CC5E47B009C17B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B567F9ABAA47E3C845DDFBF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		210CE17600C746068A71DD53 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGHTTPClient/Pods-IGHTTPClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E3967458BD34C3DAF1C726 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGHTTPClient/Pods-IGHTTPClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865D8CE01CC5E47B009C17B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86ECFAEA1CC75FED0045785A /* IGHTTPClient.m in Sources */,
+				86ECFAF01CC75FED0045785A /* IGJSONModel.m in Sources */,
+				86ECFAED1CC75FED0045785A /* IGJSONResponseObjectParserManager.m in Sources */,
+				865D8CEF1CC5E47B009C17B7 /* ViewController.m in Sources */,
+				86ECFAF71CC760370045785A /* IGFileUploadManager.m in Sources */,
+				86ECFAEF1CC75FED0045785A /* IGHTTPTools.m in Sources */,
+				86ECFAE81CC75FED0045785A /* IGBatchTask.m in Sources */,
+				86ECFAF11CC75FED0045785A /* NSError+HTTPClient.m in Sources */,
+				86ECFAEB1CC75FED0045785A /* IGHTTPRequestBuilderManager.m in Sources */,
+				86ECFAE91CC75FED0045785A /* IGBatchTaskManager.m in Sources */,
+				86ECFAEC1CC75FED0045785A /* IGHTTPRequestSerializer.m in Sources */,
+				8670CD711CC6229200AA1DC7 /* IGTestParser.m in Sources */,
+				86ECFAEE1CC75FED0045785A /* IGJSONResponseSerializer.m in Sources */,
+				8670CD6E1CC6226400AA1DC7 /* IGCellData.m in Sources */,
+				865D8CEC1CC5E47B009C17B7 /* AppDelegate.m in Sources */,
+				865D8CE91CC5E47B009C17B7 /* main.m in Sources */,
+				86ECFAFA1CC7605B0045785A /* IGHTTPClient+Download.m in Sources */,
+				86ECFAF21CC75FED0045785A /* NSURLSessionTask+IGHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		865D8CF01CC5E47B009C17B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865D8CF11CC5E47B009C17B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		865D8CF51CC5E47B009C17B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865D8CF61CC5E47B009C17B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865D8CF91CC5E47B009C17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		865D8CFA1CC5E47B009C17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865D8CFC1CC5E47B009C17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E64ACA52B814F16FDAB8DD /* Pods-IGHTTPClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IGHTTPClient/IGHTTPClient.pch";
+				INFOPLIST_FILE = IGHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IG.IGHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		865D8CFD1CC5E47B009C17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9198507E3D0750E6B5EE5F5 /* Pods-IGHTTPClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IGHTTPClient/IGHTTPClient.pch";
+				INFOPLIST_FILE = IGHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IG.IGHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865D8CDF1CC5E47B009C17B7 /* Build configuration list for PBXProject "IGHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865D8CF91CC5E47B009C17B7 /* Debug */,
+				865D8CFA1CC5E47B009C17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865D8CFB1CC5E47B009C17B7 /* Build configuration list for PBXNativeTarget "IGHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865D8CFC1CC5E47B009C17B7 /* Debug */,
+				865D8CFD1CC5E47B009C17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865D8CDC1CC5E47B009C17B7 /* Project object */;
+}
