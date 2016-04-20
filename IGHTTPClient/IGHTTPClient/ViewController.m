@@ -99,13 +99,15 @@ static NSString *cellID = @"Cell";
 }
 
 - (void)tests1000{
-    
+    __block CGFloat tstart = [[NSDate date] timeIntervalSince1970];
+
     RespDictionaryBlock db = ^(NSMutableDictionary *infoDict, NSError *error) {
         if (!error) {
             NSLog(@"complete success:\n%@",infoDict);
         }else{
             NSLog(@"complete failed:%@",error);
         }
+        NSLog(@"Time : %f",[[NSDate date] timeIntervalSince1970]-tstart);
     };
     
     [HTTPClient POSTApi:@"com.sie.mp.mshop.svr.getAppDetail.biz.ext"
@@ -120,6 +122,7 @@ static NSString *cellID = @"Cell";
 - (void)tests2000{
     
     
+    __block CGFloat tstart = [[NSDate date] timeIntervalSince1970];
     
     NSMutableArray *aa = [NSMutableArray new];
     
@@ -130,6 +133,8 @@ static NSString *cellID = @"Cell";
             }else{
                 NSLog(@"complete failed %d :%@",i,error);
             }
+            
+            NSLog(@"Time[P_%d] : %f",i,[[NSDate date] timeIntervalSince1970]-tstart);
         };
         NSURLSessionTask *task = [HTTPClient POSTApi:@"com.sie.mp.mshop.svr.getAppDetail.biz.ext"
                                           parameters:@{@"os":@"IOS",
@@ -143,8 +148,11 @@ static NSString *cellID = @"Cell";
     
     IGBatchTask *bt = [[IGBatchTask alloc] initWithTasks:aa progressBlock:^(NSInteger finish, NSInteger total) {
         NSLog(@"Batch Task Progress : %.2f  [%ld,%ld]",finish*1.0/total,finish,total);
+        NSLog(@"Time[P_%f] : %f",finish*1.0/total,[[NSDate date] timeIntervalSince1970]-tstart);
     } complete:^(IGBatchTask *batchTask, NSArray *successTasks, NSArray *failureTasks) {
+        NSLog(@"Time : %f",[[NSDate date] timeIntervalSince1970]-tstart);
         NSLog(@"Batch Task complete :\nSuccess: %ld Failed:%ld",successTasks.count,failureTasks.count);
+        NSLog(@"Time : %f",[[NSDate date] timeIntervalSince1970]-tstart);
     }];
     [bt run];
 }
