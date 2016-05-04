@@ -89,7 +89,7 @@ static NSString* IGBatchTaskLockName = @"IGBatchTaskLockName";
         
         for (NSURLSessionTask *task in tasks) {
             // 元素类型判定
-            NSAssert([task isKindOfClass:[NSURLSessionTask class]], @"需要传入NSURLSessionTask类型的对象");
+            NSAssert([task isKindOfClass:[NSURLSessionTask class]], @"啊啊啊啊");
             if (![task isKindOfClass:[NSURLSessionTask class]]) {
                 continue;
             }
